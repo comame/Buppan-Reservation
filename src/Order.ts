@@ -1,7 +1,6 @@
 import { Item } from "./Item";
 
-export interface Reservation {
-    reservationId: number
+export interface Order {
     items: [{
         item: Item,
         count: number

@@ -1,4 +1,6 @@
+import { Order } from "./Order";
+
 export interface Ticket {
-    reservationId: number
+    order: Order
     seat: string
 }
